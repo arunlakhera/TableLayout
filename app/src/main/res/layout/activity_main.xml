@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <!-- First Row of Table -->
+    <TableRow
+        android:id="@+id/header_Row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Songs Name"
+                android:background="#26C6DA"
+                android:padding="8dp"
+                android:textSize="12sp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Duration"
+                android:background="#26C6DA"
+                android:padding="8dp"
+                android:textSize="12sp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yoga Style"
+                android:background="#26C6DA"
+                android:padding="8dp"
+                android:textSize="12sp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dedicate Time"
+                android:background="#26C6DA"
+                android:padding="8dp"
+                android:textSize="12sp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Benefits"
+                android:background="#26C6DA"
+                android:padding="8dp"
+                android:textSize="12sp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teacher Note"
+                android:background="#26C6DA"
+                android:padding="8dp"
+                android:textSize="12sp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/back"
+                android:background="#26C6DA"
+                android:padding="8dp"
+                android:textSize="12sp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+    </TableRow>
+</TableLayout>
